@@ -12,7 +12,7 @@
 
 <body>
 
-    {{-- Header --}}
+    {{-- HEADER --}}
     <header>
         <div id="top-header">
             <div class="container">
@@ -50,7 +50,35 @@
           </div>
     </section>
     </header>
+    {{-- MAIN --}}
+    <main>
+        
+    </main>
+    {{-- FOOTER --}}
+    <footer>
+        {{-- Top footer --}}
+        <section id="top-footer" class="container">
 
+        </section>
+        {{-- Bottom footer --}}
+        <section id="bottom-footer">
+            <div class="container">
+                <span>
+                    <button type="button">SIGN-UP NOW!</button>
+                </span>
+                <span>
+                    <ul>
+                        <li><a href="#">FOLLOW US</a></li>
+                        <li><a href="#">facebook</a></li>
+                        <li><a href="#">twitter</a></li>
+                        <li><a href="#">youtube</a></li>
+                        <li><a href="#">pinterest</a></li>
+                        <li><a href="#">geolocal</a></li>
+                    </ul>
+                </span>
+        </div>
+        </section>
+    </footer>
 </body>
 
 </html>

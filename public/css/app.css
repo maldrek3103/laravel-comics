@@ -22,6 +22,15 @@ li {
   list-style-type: none;
 }
 
+button {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
 .container {
   max-width: 1200px;
   width: 100%;
@@ -67,4 +76,35 @@ header #search input {
   border: 0px;
   text-align: right;
   font-size: 1rem;
+}
+
+footer #top-footer {
+  background: #000;
+}
+footer #bottom-footer {
+  background-color: #303030;
+  padding: 1.5rem 0;
+}
+footer #bottom-footer div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer #bottom-footer div ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer #bottom-footer div ul li:first-child a {
+  color: #0282f9;
+  font-weight: 600;
+}
+footer #bottom-footer div ul li a {
+  padding-left: 1rem;
+}
+footer #bottom-footer div button {
+  border: 2px solid #0282f9;
+  padding: 1rem;
+  color: #fff;
+  font-weight: 400;
 }
