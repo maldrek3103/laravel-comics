@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: $color-black;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    min-height: 100vh;
+    font-family: $main-font;
+}
+
+li {
+    list-style-type: none;
+}

@@ -52,3 +52,7 @@ Route::get('/fans', function () {
 Route::get('/news', function () {
     return view('news');
 })->name('news');
+
+Route::get('/shop', function () {
+    return view('shop');
+})->name('shop');
