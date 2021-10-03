@@ -1,9 +1,9 @@
 @extends('layouts.main');
 
-@section('title')Collectibles @endsection
+@section('title')Shop @endsection
 
 @section('content')
-<section id="collectibles">
+<section id="shop">
             
 </section>
 @endsection
