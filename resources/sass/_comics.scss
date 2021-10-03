@@ -1,0 +1,36 @@
+#comics {
+    color: $color-white;
+    img {
+        position: relative;
+    }
+    .dark-bg {
+        background-color: $color-dark-gray;
+        position: absolute;
+        top: 60%;
+        width: 100%;
+        min-height: 660px;
+        padding-top: 2rem;
+        h1 {
+            position: absolute;
+            top: -3%;
+            background-color: $primary-color;
+            padding: 0.5rem 1rem;
+        }
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 1rem;
+            .card {
+                flex-basis: calc(100% / 6);
+                img {
+                    width: 180px;
+                }
+                h4 {
+                    font-weight: 400;
+                    padding-top: 1rem;
+                }
+            }
+        }
+    }
+}

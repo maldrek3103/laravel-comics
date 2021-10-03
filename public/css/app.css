@@ -129,3 +129,40 @@ footer #bottom-footer div button {
   color: #fff;
   font-weight: 400;
 }
+
+#comics {
+  color: #fff;
+}
+#comics img {
+  position: relative;
+}
+#comics .dark-bg {
+  background-color: #1c1c1c;
+  position: absolute;
+  top: 60%;
+  width: 100%;
+  min-height: 660px;
+  padding-top: 2rem;
+}
+#comics .dark-bg h1 {
+  position: absolute;
+  top: -3%;
+  background-color: #0282f9;
+  padding: 0.5rem 1rem;
+}
+#comics .dark-bg .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1rem;
+}
+#comics .dark-bg .cards .card {
+  flex-basis: 16.6666666667%;
+}
+#comics .dark-bg .cards .card img {
+  width: 180px;
+}
+#comics .dark-bg .cards .card h4 {
+  font-weight: 400;
+  padding-top: 1rem;
+}
