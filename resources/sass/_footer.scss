@@ -1,7 +1,32 @@
 footer {
+    // Top footer
     #top-footer {
-        background: #000;
+        background-image: url("../images/footer-bg.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 2rem 0;
+        .container {
+            display: flex;
+            div {
+                padding-right: 2rem;
+                h4 {
+                    color: $color-white;
+                    margin-bottom: 1rem;
+                }
+                ul {
+                    margin-bottom: 1rem;
+                    margin-right: 2rem;
+                    li {
+                        a {
+                            color: $color-light-gray;
+                        }
+                    }
+                }
+            }
+        }
     }
+    // Bottom footer
     #bottom-footer {
         background-color: $color-mid-gray;
         padding: 1.5rem 0;

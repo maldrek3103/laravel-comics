@@ -52,13 +52,59 @@
     </header>
     {{-- MAIN --}}
     <main>
-        
+        <section id="products">
+            
+        </section>
     </main>
     {{-- FOOTER --}}
     <footer>
         {{-- Top footer --}}
-        <section id="top-footer" class="container">
-
+        <section id="top-footer">
+            <div class="container">
+                <div>
+                    <h4>DC COMICS</h4>
+                    <ul>
+                        <li><a href="#">a</a></li>
+                        <li><a href="#">s</a></li>
+                        <li><a href="#">d</a></li>
+                        <li><a href="#">a</a></li>
+                        <li><a href="#">sd</a></li>
+                        <li><a href="#">d</a></li>
+                        <li><a href="#">asd</a></li>
+                    </ul>
+                    <h4>SHOP</h4>
+                    <ul>
+                        <li><a href="#">asd</a></li>
+                        <li><a href="#">asd</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>DC</h4>
+                    <ul>
+                        <li><a href="#">asd</a></li>
+                        <li><a href="#">asd</a></li>
+                        <li><a href="#">asd</a></li>
+                        <li><a href="#">asd</a></li>
+                        <li><a href="#">asd</a></li>
+                        <li><a href="#">asd</a></li>
+                        <li><a href="#">asd</a></li>
+                        <li><a href="#">asd</a></li>
+                        <li><a href="#">asd</a></li>
+                        <li><a href="#">asd</a></li>
+                        <li><a href="#">asd</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>SITES</h4>
+                    <ul>
+                        <li><a href="#">asd</a></li>
+                        <li><a href="#">asd</a></li>
+                        <li><a href="#">asd</a></li>
+                        <li><a href="#">asd</a></li>
+                        <li><a href="#">asd</a></li>
+                    </ul>
+                </div>
+            </div>
         </section>
         {{-- Bottom footer --}}
         <section id="bottom-footer">
