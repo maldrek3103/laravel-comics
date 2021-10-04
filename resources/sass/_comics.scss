@@ -23,6 +23,8 @@
                 img {
                     height: 180px;
                     width: 180px;
+                    object-fit: cover;
+                    object-position: top;
                 }
                 h4 {
                     color: $color-white;

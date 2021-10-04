@@ -187,6 +187,10 @@ footer #bottom-footer div button {
 #comics .background .cards .card img {
   height: 180px;
   width: 180px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
 }
 #comics .background .cards .card h4 {
   color: #fff;
