@@ -14,15 +14,24 @@ header {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 1rem 0;
     }
-    ul {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        li {
-            a {
-                padding: 0 1rem;
+    #nav {
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            li {
+                height: 140px;
+                a {
+                    line-height: 140px;
+                    padding: 0 1rem;
+                }
+                &:hover {
+                    border-bottom: 3px solid $primary-color;
+                    a {
+                        color: $primary-color;
+                    }
+                }
             }
         }
     }

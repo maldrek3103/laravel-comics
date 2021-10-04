@@ -42,6 +42,26 @@ button {
   height: auto;
 }
 
+.d-flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.wrapper {
+  position: relative;
+}
+
 header {
   font-weight: 600;
 }
@@ -59,15 +79,24 @@ header section {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 0;
 }
-header ul {
+header #nav ul {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-header ul li a {
+header #nav ul li {
+  height: 140px;
+}
+header #nav ul li a {
+  line-height: 140px;
   padding: 0 1rem;
+}
+header #nav ul li:hover {
+  border-bottom: 3px solid #0282f9;
+}
+header #nav ul li:hover a {
+  color: #0282f9;
 }
 header #search {
   border-bottom: 2px solid #0282f9;
@@ -131,38 +160,57 @@ footer #bottom-footer div button {
 }
 
 #comics {
-  color: #fff;
-}
-#comics img {
-  position: relative;
-}
-#comics .dark-bg {
-  background-color: #1c1c1c;
   position: absolute;
-  top: 60%;
+  bottom: 0;
   width: 100%;
-  min-height: 660px;
-  padding-top: 2rem;
 }
-#comics .dark-bg h1 {
+#comics .background {
+  background-color: #1c1c1c;
+  padding-bottom: 1rem;
+}
+#comics .background h3 {
   position: absolute;
-  top: -3%;
+  top: -2.5%;
   background-color: #0282f9;
   padding: 0.5rem 1rem;
+  color: #fff;
 }
-#comics .dark-bg .cards {
+#comics .background .cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 1rem;
+  padding-top: 2rem;
 }
-#comics .dark-bg .cards .card {
+#comics .background .cards .card {
   flex-basis: 16.6666666667%;
+  padding-bottom: 1rem;
 }
-#comics .dark-bg .cards .card img {
+#comics .background .cards .card img {
+  height: 180px;
   width: 180px;
 }
-#comics .dark-bg .cards .card h4 {
-  font-weight: 400;
-  padding-top: 1rem;
+#comics .background .cards .card h4 {
+  color: #fff;
+}
+#comics .background .load-btn {
+  text-align: center;
+}
+#comics .background .load-btn .button {
+  background-color: #0282f9;
+  color: #fff;
+  padding: 0.5rem 2rem;
+  font-weight: bold;
+}
+#comics .blue-bar-links {
+  background-color: #0282f9;
+  padding: 2rem 0;
+}
+#comics .blue-bar-links span {
+  height: 80px;
+}
+#comics .blue-bar-links span img {
+  height: 100%;
+}
+#comics .blue-bar-links span h5 {
+  color: #fff;
+  margin-left: 1rem;
 }

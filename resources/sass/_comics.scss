@@ -1,35 +1,55 @@
 #comics {
-    color: $color-white;
-    img {
-        position: relative;
-    }
-    .dark-bg {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    .background {
         background-color: $color-dark-gray;
-        position: absolute;
-        top: 60%;
-        width: 100%;
-        min-height: 660px;
-        padding-top: 2rem;
-        h1 {
+        padding-bottom: 1rem;
+        h3 {
             position: absolute;
-            top: -3%;
+            top: -2.5%;
             background-color: $primary-color;
             padding: 0.5rem 1rem;
+            color: $color-white;
         }
         .cards {
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-between;
-            padding: 1rem;
+            padding-top: 2rem;
+
             .card {
                 flex-basis: calc(100% / 6);
+                padding-bottom: 1rem;
                 img {
+                    height: 180px;
                     width: 180px;
                 }
                 h4 {
-                    font-weight: 400;
-                    padding-top: 1rem;
+                    color: $color-white;
                 }
+            }
+        }
+        .load-btn {
+            text-align: center;
+            .button {
+                background-color: $primary-color;
+                color: $color-white;
+                padding: 0.5rem 2rem;
+                font-weight: bold;
+            }
+        }
+    }
+    .blue-bar-links {
+        background-color: $primary-color;
+        padding: 2rem 0;
+        span {
+            height: 80px;
+            img {
+                height: 100%;
+            }
+            h5 {
+                color: $color-white;
+                margin-left: 1rem;
             }
         }
     }

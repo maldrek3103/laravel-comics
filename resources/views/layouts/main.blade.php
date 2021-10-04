@@ -17,7 +17,11 @@
     
     {{-- MAIN --}}
     <main>
+        <div class="wrapper">
+        @include('includes.jumbotron')
         @yield('content')
+        
+    </div>
     </main>
 
     {{-- FOOTER --}}
