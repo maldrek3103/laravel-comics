@@ -8,12 +8,14 @@
             <div class="container">
                 <h3>CURRENT SERIES</h3>
                 <div class="cards">
-                    @foreach ($comics as $comic)
+                    @foreach ($comics as $index => $comic)
                         {{-- Each card --}}
                         <div class="card">
                                     
                             {{-- Card image --}}
-                            <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}">
+                            <a href="{{ url("/comics/$index") }}">
+                                <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}">
+                            </a>
                             {{-- Card title --}}
                             <h4>{{ $comic['series'] }}</h4>
                                     
